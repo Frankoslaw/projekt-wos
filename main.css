@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 12vw;
+}
+
+.title h5{
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 7vw;
+}
+
+.why_dont_throw_away p, .conspiracy p, .what_do_with p, .alternatiwes p{
+    margin-bottom: 0;
+    text-indent: 4em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 4vw;
+}
+
+@media only screen and (min-device-width: 400px) {
+    h2 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
+
+body {
+    background-color: #42f590;
+}
+
+div.crop {
+    display:inline-block;
+}
+
+.crop img{
+    max-height: 40vw;
+    min-height: 30vw;
+    max-width:60vw;
+    min-width: 30vw;
+    border-radius: 5%;
+}
+
+h2 {
+    padding-top: 1rem;
+}
