@@ -2,109 +2,130 @@
 <head>
     <title>Nie pal śmieci</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <main>
-        <headers>
-            <div class="title">
-                <h1>Nie pal śmieci</h1>
-                <h5>Kampania społeczna autorstwa: Franciszek Łopuszański</h5>
-                <h5>Zdjęcia: Franciszek Łopuszański oraz zdjęcia z google( wymienione poniżej w źródłach )</h5>
+    <div class="jumbotron text-center">
+        <h1>Nie pal śmieci</h1></br>
+        <p>Kampania społeczna autorstwa: Franciszek Łopuszański, Konrad Książkiewicz i Jakub Malinowski</p>
+        <p>Zdjęcia: Franciszek Łopuszański oraz zdjęcia z google( wymienine w źródłach )</p>
+    </div>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Spis treści:</h3>
+                <ul class="nav nav-pills list-group flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why_dont_throw_away">1: Dlaczego nie wolno spalać śmieci?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conspiracy">2: Dlaczego, w takim razie spalarnie przemysłowe mogą spalać plastik a gospodarstwa domowe nie?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#what_do_with">3: Co w takim razie powinienem zrobić z odpadami?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#alternatiwes">4: Alternatywy dla wyrzucania śmieci.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sources">5: Źródła:</a>
+                    </li>
+                </ul>
             </div>
-        </headers>
-        <section>
-            <div class="why_dont_throw_away">
-                <h2>Dlaczego nie wolno spalać śmieci?</h2>
-                <p>
-                    Może wydawać się, że spalanie śmieci w piecu czy ognisku jest niegroźne, a wręcz korzystne, ponieważ pozbywamy się zbędnych śmieci
-                    oraz wytwarzamy ciepło. Jest to błędne załorzenie, ponieważ spalanie plastiku, a w szczegulności butelek( wykonanych z materiału PET )
-                    wydziela wiele toksycznych i rakotwórczych gazów. Według znaleźonych przezemnie informacji w czasie spalania plastiku uwalniane są
-                    <a href = "https://pl.wikipedia.org/wiki/Furan">"Furany"</a> i <a href="https://pl.wikipedia.org/wiki/Dioksyny">"Dioksyny"</a>
-                    wykazują one właściwości kancerogenne( czyli powodują lub zwiększają ryzyko wystąpienia nowotworu ).
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class="conspiracy">
-                <h2>Dlaczego, w takim razie spalarnie przemysłowe mogą spalać plastik a gospodarstwa domowe nie?</h2>
-                <p>
-                    Można pomyśleć, że jest to spisek przeciwko szarym obywatelom lecz przyczyna jest inna. W spalarniach przemysłowych odpady utylizowane są
-                    w piecach których temperatury wachają się między ok. 850 st. C. do nawet 1000 st. C. których zwykły piec nie jest w stanie osiągnąć. Za spalanie 
-                    śmieci w piecach domowych może grozić od 500zł( mandatu ) do 5000zł (jeżeli sprawa wpłynie do sądu ).
-                </p>
+          <div class="col-sm-6", id="why_dont_throw_away">
+            <h3>Dlaczego nie wolno spalać śmieci?</h3>
+            <p>
+                Może wydawać się, że spalanie śmieci w piecu czy ognisku jest niegroźne, a wręcz korzystne, ponieważ pozbywamy się zbędnych śmieci
+                oraz wytwarzamy ciepło. Jest to błędne załorzenie, ponieważ spalanie plastiku, a w szczegulności butelek( wykonanych z materiału PET )
+                wydziela wiele toksycznych i rakotwórczych gazów. Według znaleźonych przezemnie informacji w czasie spalania plastiku uwalniane są
+                <a href = "https://pl.wikipedia.org/wiki/Furan">"Furany"</a> i <a href="https://pl.wikipedia.org/wiki/Dioksyny">"Dioksyny"</a>
+                wykazują one właściwości kancerogenne( czyli powodują lub zwiększają ryzyko wystąpienia nowotworu ).
+            </p>
 
-                <div class="crop">
-                    <img src="./assets/piec.jpg" alt="Piec image">
-                </div>
-                <div class="crop">
-                    <img src="./assets/spalarnia.jpg" alt="Spalarnia image">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="what_do_with">
-                <h2>Co w takim razie powinienem zrobić z odpadami?</h2>
-                <p>
-                    Według danych ZCG( Związek Celowy Gmin ), nie ma obowiązku segregowania śmieci na terenie województwa lubuskiego lecz osoby nie segregujące 
-                    obciążone będą dodatkowymi opłatami. Jeżeli nie segregujemy będzie posiadać jeden pojemnik na odpady mieszane do, którego trafiać będzie 
-                    wszystko z pojedyńczymi wyjątkami, w przypadku segregowania śmieci posiadać będziemy pojemniki na plastik, papier, szkło, odpady biodegradowalne
-                    (nie przetworzone resztki jedzenia ) oraz odpady mieszane do których będą trafiać materiały których nie da się konkretnie przydzielić do konkretnego
-                    pojemnika.
-                </p>
-                <p>
-                    Jeżeli chcesz wiedzieć jakie obostrzenia odnośnie segregowania panują w twoim województwie możesz odwiedzić stronę:
-                    <a href="https://naszesmieci.mos.gov.pl/"> https://naszesmieci.mos.gov.pl/ </a>
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class="alternatiwes">
-                <h2>Alternatywy dla wyrzucania śmieci.</h2>
-                <p>
-                    Nie zawsze trzeba wyrzucać śmieci, można wykorzystać odpady
-                </p>
-            </div> 
-        </section>
-        <section>
-            <div class="sources">
-                <h2>Źródła.</h2>
-                <p>
-                    <a href = "http://www.biecz.pl/asp/pl_start.asp?typ=14&sub=327&menu=329&strona=1">
-                        http://www.biecz.pl/asp/pl_start.asp?typ=14&sub=327&menu=329&strona=1
-                    </a></br>
-                    <a href = "https://www.wroclaw.pl/srodowisko/palenie-smieci-truje">
-                        https://www.wroclaw.pl/srodowisko/palenie-smieci-truje
-                    </a></br>
-                    <a href = "https://airly.org/pl/palenie-smieci-i-odpadow-w-piecu-szkodzi-srodowisku-w-ktorym-zyjesz/">
-                        https://airly.org/pl/palenie-smieci-i-odpadow-w-piecu-szkodzi-srodowisku-w-ktorym-zyjesz/
-                    </a></br>
-                    <a href = "http://www.zcg.net.pl/">
-                        http://www.zcg.net.pl/
-                    </a></br>
-                    <a href = "https://pl.wikipedia.org/wiki/Furan">
-                        https://pl.wikipedia.org/wiki/Furan
-                    </a></br>
-                    <a href="https://zdrowie.dziennik.pl/nowotwory/artykuly/363284,nie-pal-smieci-to-grozi-rakiem.html">
-                        https://zdrowie.dziennik.pl/nowotwory/artykuly/363284,nie-pal-smieci-to-grozi-rakiem.html
-                    </a></br>
-                    <a href="https://pl.wikipedia.org/wiki/Dioksyny">
-                        https://pl.wikipedia.org/wiki/Dioksyny
-                    </a></br>
-                    <a href="https://naszesmieci.mos.gov.pl/">
-                        https://naszesmieci.mos.gov.pl/
-                    </a></br>
-                    <a href="./assets/doniczki.jpg">
-                        zdjęcie doniczek
-                    </a></br>
-                    <a href="./assets/spalarnia.jpg">
-                        zdjęcie spalarni
-                    </a></br>
-                    <a href="./assets/skupy.jpg">
-                        zdjęcie automatu do skupowania butelek
-                    </a>
-                </p>
-            </div> 
-        </section>
-    </main>
+            <img src="./assets/komin.jpg" class="img-fluid rounded" alt="komin">
+          </div>
+          <div class="col-sm-6", id="conspiracy">
+            <h3>Dlaczego, w takim razie spalarnie przemysłowe mogą spalać plastik a gospodarstwa domowe nie?</h3>
+            <p>
+                Można pomyśleć, że jest to spisek przeciwko szarym obywatelom lecz przyczyna jest inna. W spalarniach przemysłowych odpady utylizowane są
+                w piecach których temperatury wachają się między ok. 850 st. C. do nawet 1000 st. C. których zwykły piec nie jest w stanie osiągnąć. Za spalanie 
+                śmieci w piecach domowych może grozić od 500zł( mandatu ) do 5000zł (jeżeli sprawa wpłynie do sądu ).
+            </p>
+
+            <img src="./assets/spalanie.jpg" class="img-fluid rounded" alt="spalanie">
+            <img src="./assets/spalarnia.jpg" class="img-fluid rounded" alt="spalarnia">
+          </div>
+          <div class="col-sm-6", id="what_do_with">
+            <h3>Co w takim razie powinienem zrobić z odpadami?</h3>
+            <p>
+                Według danych ZCG( Związek Celowy Gmin ), nie ma obowiązku segregowania śmieci na terenie województwa lubuskiego lecz osoby nie segregujące 
+                obciążone będą dodatkowymi opłatami. Jeżeli nie segregujemy będzie posiadać jeden pojemnik na odpady mieszane do, którego trafiać będzie 
+                wszystko z pojedyńczymi wyjątkami, w przypadku segregowania śmieci posiadać będziemy pojemniki na plastik, papier, szkło, odpady biodegradowalne
+                (nie przetworzone resztki jedzenia ) oraz odpady mieszane do których będą trafiać materiały których nie da się konkretnie przydzielić do konkretnego
+                pojemnika.
+            </p>
+
+            <img src="./assets/smietniki.jpg" class="img-fluid rounded" alt="smietniki">
+          </div>
+          <div class="col-sm-6", id="alternatiwes">
+            <h3>Alternatywy dla wyrzucania śmieci.</h3>
+            <p>
+                Nie zawsze trzeba wyrzucać śmieci, można wykorzystać odpady pownownie, proces taki nazywany jest recyklingiem. Przykładem jak ponownie wykorzystać
+                śmieci mogą być doniczki wykonane z zurzytych platikowych butelek. Innym przykładem recyklinku jest oddawanie makulatury, czy plastiku do specjalnych
+                skupów. W duży miastach funkcjonują już automaty które wymieniają plastikowe butelki za pieniądze.
+            </p>
+
+            <img src="./assets/skupy.jpg" class="img-fluid rounded" alt="skupy">
+            <img src="./assets/doniczki.jpg" class="img-fluid rounded" alt="doniczki">
+          </div>
+          <div class="col-sm-12", id="sources">
+            <h3>Źródła:</h3>
+            <a href = "http://www.biecz.pl/asp/pl_start.asp?typ=14&sub=327&menu=329&strona=1">
+                http://www.biecz.pl/asp/pl_start.asp?typ=14&sub=327&menu=329&strona=1
+            </a></br>
+            <a href = "https://www.wroclaw.pl/srodowisko/palenie-smieci-truje">
+                https://www.wroclaw.pl/srodowisko/palenie-smieci-truje
+            </a></br>
+            <a href = "https://airly.org/pl/palenie-smieci-i-odpadow-w-piecu-szkodzi-srodowisku-w-ktorym-zyjesz/">
+                https://airly.org/pl/palenie-smieci-i-odpadow-w-piecu-szkodzi-srodowisku-w-ktorym-zyjesz/
+            </a></br>
+            <a href = "http://www.zcg.net.pl/">
+                http://www.zcg.net.pl/
+            </a></br>
+            <a href = "https://pl.wikipedia.org/wiki/Furan">
+                https://pl.wikipedia.org/wiki/Furan
+            </a></br>
+            <a href="https://zdrowie.dziennik.pl/nowotwory/artykuly/363284,nie-pal-smieci-to-grozi-rakiem.html">
+                https://zdrowie.dziennik.pl/nowotwory/artykuly/363284,nie-pal-smieci-to-grozi-rakiem.html
+            </a></br>
+            <a href="https://pl.wikipedia.org/wiki/Dioksyny">
+                https://pl.wikipedia.org/wiki/Dioksyny
+            </a></br>
+            <a href="https://naszesmieci.mos.gov.pl/">
+                https://naszesmieci.mos.gov.pl/
+            </a></br>
+            <a href="http://m.regiodom.pl/portal/instalacje/ogrzewanie/palenie-smieciami-w-piecu-glupota-i-wykroczenie-co-grozi-za-palenie-smieciami">
+                http://m.regiodom.pl/portal/instalacje/ogrzewanie/palenie-smieciami-w-piecu-glupota-i-wykroczenie-co-grozi-za-palenie-smieciami
+            </a>
+            <a href="./assets/doniczki.jpg">
+                zdjęcie doniczek
+            </a></br>
+            <a href="./assets/spalarnia.jpg">
+                zdjęcie spalarni
+            </a></br>
+            <a href="./assets/skupy.jpg">
+                zdjęcie automatu do skupowania butelek
+            </a></br>
+            <a href="./assets/komin.jpg">
+                zdjęcie kominka z butelką
+            </a>
+          </div>
+        </div>
+    </div>
 </body>
