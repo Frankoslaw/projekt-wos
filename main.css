@@ -17,3 +17,7 @@ body {
 a, a:hover {
     color: #2D6A4F;
 }
+
+img {
+    padding-bottom: 1rem;
+}
